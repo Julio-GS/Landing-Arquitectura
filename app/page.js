@@ -5,6 +5,7 @@ import Contact from "./components/Contact/page";
 import Footer from "./components/Footer/page";
 import HeroSection from "./components/HeroSection/page";
 import Navbar from "./components/Navbar/page";
+import Services from "./components/Services/page";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Company />
         <FinalVideo />
+        <Services />
         <Contact />
       </main>
 
